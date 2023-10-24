@@ -1,0 +1,101 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #676dde ;
+
+}
+
+.card-container {
+    height: 300px;
+    width: 300px;
+   
+    border-radius: 20px;
+    
+}
+.card-container{
+    width: 100%;
+    padding: 15px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.ai-container{
+    
+    width: 400px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: space-between;
+padding: 10px;
+}
+.card-r{
+    height: 300px;
+    width: 400px;
+    
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+.milieu{
+    display: flex;
+    justify-content: space-between;
+   
+    width: 100%;
+}
+.turn{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+   
+    border-radius: 20px;
+}
+.user-container{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+
+   
+    border-radius: 20px;
+    
+}
+
+.chrono{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+.boba{
+    height: 30px;
+    width: 30px;
+}
+.boba-container{
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 10px;
+    display: flex;
+}

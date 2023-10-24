@@ -1,0 +1,42 @@
+body{
+    background-color: #676dde ;
+  
+
+}
+.container{
+    color: white;
+    font-weight: bold;
+    height: 100%;
+    margin-top: 10%;
+   
+
+    display: flex;
+    justify-content: space-around;
+
+}
+div img{
+    height: 100px;
+    width: 100px;
+}
+.play-user, .play-ia{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    height: 30px;
+    width: 70px;
+    color: white;
+    border: aqua;
+  color: black;
+
+    outline: none;
+    border-radius: 10px;
+    background-color: white;
+}
+button:hover{
+background-color: gray;
+
+color: white;
+}
+
